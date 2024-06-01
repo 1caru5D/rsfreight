@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RS Blog</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="facIcone_Main01.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<link rel="stylesheet" href="css/line-icons.css">
+<link rel="stylesheet" href="css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body class="dark-theme">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container">
+
+      <nav class="navbar">
+
+        <a href="#">
+          <img src="./assets/images/Logo_Light.png" alt="Devblog's logo" width="150" height="40" class="logo-light">
+          <img src="assets/images/logo/logo_1080x300_BW-removebg-preview.png" alt="Devblog's logo" width="250" height="70" class="logo-dark">
+        </a>
+
+        <div class="btn-group">
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="https://rsfreight.co.za" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="index.html#about" class="nav-link">About Us</a>
+            </li>
+
+            <li>
+              <a href="index.html#footer" class="nav-link">Contact</a>
+            </li>
+
+          </ul>
+
+          
+
+        </div>
+
+        <div class="mobile-nav">
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+
+            <p class="h3 nav-title">Main Menu</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">About Me</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="index.html#footer" class="nav-link">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div>
+
+            <p class="h3 nav-title">Topics</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Database</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Accessibility</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Web Performance</a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+
+    <!--
+      - #HERO SECTION
+    -->
+
+    <div class="hero">
+
+      <div class="container">
+
+        <div class="left">
+
+          <h1 class="h1" style="font-size: 425%;">
+            RS Freight<b> Services</b>
+            
+          </h1>
+
+          <p class="h3">
+            Welcome To Our Services Page<br>How Will We Be Assisting You Today? 
+          </p>
+
+          <div class="btn-group">
+            <a href="index.html#footer" class="btn btn-primary">Contact Us</a>
+            <a href="index.html" class="btn btn-secondary">Home Page</a>
+          </div>
+
+        </div>
+
+        <div class="right">
+
+          <div class="pattern-bg"></div>
+          <div class="img-box">
+            <img src="./assets/images/logo/blogImg.png" alt="Julia Walker" style="height: 500px; width: 500px;" class="hero-img">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <div class="main">
+
+      <div class="container">
+
+        <!--
+          - BLOG SECTION
+        -->
+
+        <div class="blog">
+
+          <h2 class="h2">RS Freight: Service Listing</h2>
+
+          <div class="blog-card-group">
+
+            <div id="serv1" class="blog-card" style="width: 1300px;">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/servRoadFr.jpg" alt="Building microservices with Dropwizard, MongoDB & Docker"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Road Freight</button>
+
+                <h3 style="color: var(--foreground-primary);">
+                  <a href="#blog1" class="h3">
+                    
+                  </a>
+                  Road Freight Solutions
+                </h3>
+
+                <p class="blog" style="color: var(--foreground-secondary);">
+                    RS Freight's road freight services provide a seamless blend of efficiency and reliability for transporting 
+                    cargo across various terrains. Our dedicated team ensures timely deliveries with precision, whether 
+                    traversing vast landscapes or navigating city streets. 
+                    <br><br>Leveraging our expertise, we optimize routes and 
+                    coordinate logistics to meet your specific needs, ensuring that your cargo arrives safely and on schedule. 
+                    With a focus on customer satisfaction, RS Freight strives to exceed expectations, offering personalized 
+                    solutions tailored to each client's requirements. 
+                    <br><br>Trust RS Freight to handle your road freight needs with
+                    professionalism and efficiency, ensuring seamless transportation for your cargo.
+                </p>
+ 
+
+                
+              
+              </div>
+              
+
+            </div>
+            
+
+
+            <div id="serv2" class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/servSeaFr.jpg" alt="Fast web page loading on a $20 feature phone" 
+                  class="blog-banner-img" style="height: 350px;">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Sea Freight</button>
+
+                <h3 style="color: var(--foreground-primary);"><a href="#blog2" class="h3"></a>Sea Freight Logistics</h3>
+
+                <p class="blog" style="color: var(--foreground-secondary);">
+                    Dive into the world of sea freight logistics with RS Freight, where comprehensive solutions meet seamless 
+                    transportation. Our expertise spans container shipping and bulk cargo handling, ensuring smooth journeys 
+                    across global waters. <br><br>Trust RS Freight to deliver your goods safely and efficiently, with reliability guaranteed. 
+                    With a commitment to excellence, RS Freight goes the extra mile to provide personalized service, ensuring that each 
+                    shipment is handled with care and attention to detail. <br><br>Experience peace of mind with RS Freight as your trusted partner 
+                    in sea freight logistics, delivering superior solutions for your maritime transportation needs.
+                </p>
+
+                
+
+              </div>
+
+            </div>
+
+
+            <div id="serv3" class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/servAirFr.jpg" alt="Accessibility Tips for Web Developers" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Air Freight</button>
+
+                <h3 style="color: var(--foreground-primary);"><a href="#blog3" class="h3"></a>Air Freight Excellence</h3>
+
+                <p class="blog" style="color: var(--foreground-secondary);">
+                    Experience excellence in air freight with RS Freight's superior solutions for time-sensitive shipments. 
+                    Supported by a global network and dedicated team, we prioritize speed and efficiency for your cargo.<br><br> 
+                    Trust RS Freight to deliver your cargo with reliability and precision, ensuring timely arrivals. With a 
+                    focus on customer satisfaction, RS Freight offers tailored solutions to meet each client's unique 
+                    requirements, ensuring seamless transportation for their air freight needs. <br><br>Whether it's a small parcel 
+                    or oversized cargo, RS Freight delivers with professionalism and expertise, exceeding expectations every time.
+                </p>
+                
+              </div>
+
+            </div>
+
+
+            <div id="serv4" class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/servCustomsFr.jpg" alt="Dynamically Securing Databases using Hashicorp Vault"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Customs</button>
+
+                <h3 style="color: var(--foreground-primary);"><a href="#blog4" class="h3"></a>Customs Clearance Expertise</h3>
+
+                <p class="blog" style="color: var(--foreground-secondary);">
+                    Navigating customs clearance can be complex, but RS Freight simplifies the process with expertise and efficiency. 
+                    Our team handles the intricacies of trade compliance to ensure smooth clearance processes for your shipments.<br><br> 
+                    Trust RS Freight to manage customs procedures seamlessly, facilitating hassle-free imports and exports. With a 
+                    dedication to customer service, RS Freight provides personalized assistance, guiding clients through every step 
+                    of the customs clearance process. <br><br>Experience peace of mind with RS Freight as your trusted partner in customs 
+                    clearance, ensuring compliance and efficiency for your international trade operations.
+                </p>
+                
+
+                
+
+              </div>
+
+            </div>
+
+
+            <div id="serv5" class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/servWarehosingFr.jpg"
+                  alt="Adaptive Loading - Improving Web Performance on low-end devices" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">warehousing</button>
+
+                <h3 style="color: var(--foreground-primary);"><a href="#blog5" class="h3"></a>Warehousing Solutions</h3>
+
+                <p class="blog" style="color: var(--foreground-secondary);">
+                    Secure storage solutions are vital, and RS Freight delivers with modern facilities tailored to your 
+                    cargo needs. From inventory management to distribution, our warehousing services offer flexibility and 
+                    reliability. <br><br>Trust RS Freight to safeguard your goods and provide efficient storage solutions that meet 
+                    your requirements. With a focus on customer satisfaction, RS Freight offers personalized service, ensuring 
+                    that each client's warehousing needs are met with professionalism and attention to detail. <br><br>Experience peace 
+                    of mind with RS Freight as your trusted partner in warehousing, providing secure and efficient storage 
+                    solutions for your cargo.
+                </p>
+                
+                
+
+              </div>
+
+            </div>
+
+
+            <div id="serv6" class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/servProjCargoFr.jpg"
+                  alt="Don't Develop Just for Yourself - A Developer's Checklist to Accessibility" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">project cargo</button>
+
+                <h3 style="color: var(--foreground-primary);"><a href="#blog6" class="h3"></a>Project Cargo Management</h3>
+
+                <p class="blog" style="color: var(--foreground-secondary);">
+                    RS Freight excels in managing oversized and specialized cargo with precision and care. Our end-to-end 
+                    solutions for complex transportation projects worldwide ensure seamless operations. <br><br>Trust RS Freight to 
+                    handle your cargo with expertise, delivering reliable and efficient solutions tailored to your unique 
+                    project needs. With a commitment to excellence, RS Freight offers personalized service, ensuring that 
+                    each client's project cargo requirements are met with professionalism and attention to detail. <br><br>Experience 
+                    peace of mind with RS Freight as your trusted partner in project cargo management, providing innovative 
+                    solutions for your transportation projects.
+                </p>
+                
+
+
+              </div>
+
+            </div>            
+
+          </div>
+
+          <button class="btn load-more">Load More</button><br><br>
+
+          <div class="accordion" style="background-color: var(background-primary);">
+            <div class="accordion-item" id="blog1" style="background-color: var(background-primary);">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color: var(--background-secondary); color: var(--foreground-secondary);">
+                  Specialized Solutions
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="blog1" data-bs-parent="#accordionExample" style="background-color: var(background-primary);">
+                <div class="accordion-body" style="background-color: var(--background-primary); color: var(--foreground-secondary);">
+                    At RS Freight, we understand that not all cargo is created equal. That's why we offer specialized solutions tailored to 
+                    meet the unique needs of your shipments. Whether you're transporting delicate machinery, hazardous materials, or oversized 
+                    equipment, our team of experts is equipped to handle it all with precision and care. <br><br>From custom packaging to specialized 
+                    handling techniques, we go the extra mile to ensure that your cargo arrives safely and securely at its destination. With RS 
+                    Freight's specialized solutions, you can trust that your shipments are in capable hands, ready to overcome any challenge 
+                    and deliver results that exceed expectations.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item" id="blog2">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" style="background-color: var(--background-secondary); color: var(--foreground-secondary);">
+                  Warehousing
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse show" aria-labelledby="blog2" data-bs-parent="#accordionExample">
+                <div class="accordion-body" style="background-color: var(--background-primary); color: var(--foreground-secondary);">
+                    Our warehousing services go beyond just storage. With modern facilities equipped with advanced technology and security 
+                    systems, RS Freight offers more than just a place to store your goods. We provide a comprehensive suite of warehousing 
+                    solutions, including inventory management, pick-and-pack services, and distribution. <br><br>Whether you need short-term storage 
+                    for seasonal inventory or long-term warehousing for bulk shipments, we have the resources and expertise to meet your needs.
+                     With RS Freight's warehousing solutions, you can streamline your supply chain, reduce costs, and improve efficiency, all 
+                     while knowing that your goods are safe and secure.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item" id="blog3">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree" style="background-color: var(--background-secondary); color: var(--foreground-secondary);">
+                  Tracking Coming Soon
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse show" aria-labelledby="blog3" data-bs-parent="#accordionExample">
+                <div class="accordion-body" style="background-color: var(--background-primary); color: var(--foreground-secondary);">
+                    Stay informed and in control with RS Freight's intuitive tracking system. Our real-time tracking technology provides 
+                    visibility into your shipments every step of the way, giving you the peace of mind that comes with knowing exactly 
+                    where your cargo is at all times. <br><br>Whether you're shipping across town or around the world, our tracking system ensures 
+                    that you're always in the loop, allowing you to make informed decisions and manage your logistics with ease. With RS 
+                    Freight's tracking system, you can track, trace, and monitor your shipments effortlessly, ensuring timely deliveries 
+                    and satisfied customers.
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+  </main>
+
+
+
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="wrapper">
+
+        <a href="#" class="footer-logo">
+          <img src="./assets/images/Logo_Light.png" alt="DevBlog's Logo" width="150" height="40" class="logo-light">
+          <img src="assets/images/logo/logo_1080x300_BW-removebg-preview.png" alt="DevBlog's Logo" width="250" height="70" class="logo-dark">
+        </a>
+
+        <p class="footer-text" style="padding-top: 0%;">
+          Keeping up to date on all things in the Freight Industry
+        </p>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Quick Links</p>
+
+        <ul>
+
+          <li>
+            <a href="https://rsfreight.co.za" class="footer-link">RS Freight</a>
+          </li>
+
+          <li>
+            <a href="index.html#about" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="index.html#footer" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Legal Stuff</p>
+
+        <ul>
+
+          <li>
+            <a href="assets/priPol/rsWebPrivacyPolicy.pdf" class="footer-link">Privacy Notice</a>
+          </li>
+
+          <li>
+            <a href="assets/TsCs/rsTsCs.pdf" class="footer-link">Terms Of Use</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <p class="copyright">
+      &copy; Copyright 2024 RS FREIGHT. Designed & Maintained By <a href="https://icarusdigimarketing.com">Icarus Digital Marketing (Pty) Ltd.</a>
+    </p>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/app.js"></script>
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.min.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
